@@ -1,6 +1,5 @@
 plotly
 streamlit
-streamlit_option_menu
 numpy
-gunicorn==19.7.1
+seaborn
 pandas
