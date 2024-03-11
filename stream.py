@@ -6,6 +6,8 @@ import plotly.graph_objects as go
 
 
 df = pd.read_excel('Irish Whiskey Sales by Volume.xlsx')
+df.to_csv()
+
 df = df.dropna(subset=['Cases']) 
 df['Cases'] = df['Cases'].astype(float)
 
